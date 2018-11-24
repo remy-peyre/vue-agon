@@ -1,16 +1,23 @@
 <template>
   <div id="app">
     <FirstCompo msg="Le test mon Bro"/>
+    <LvlProgression/>
+    <LvlUp/>
   </div>
 </template>
 
 <script>
 import FirstCompo from './components/FirstCompo.vue'
+import LvlProgression from './components/LvlProgression.vue'
+import LvlUp from './components/LvlUp.vue'
+//import styled from 'vue-styled-components';
 
 export default {
   name: 'app',
   components: {
-    FirstCompo
+    FirstCompo,
+    LvlProgression,
+    LvlUp
   }
 }
 </script>
