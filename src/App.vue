@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <FirstCompo msg="Le test mon Bro"/>
-    <LvlProgression/>
-    <LvlUp/>
+    <LvlProgression variant="line-outline" :total=100 :current=45 />
+    <LvlUp variant="line-outline" title='C le titre' text='C le text'/>
   </div>
 </template>
 
@@ -10,7 +10,6 @@
 import FirstCompo from './components/FirstCompo.vue'
 import LvlProgression from './components/LvlProgression.vue'
 import LvlUp from './components/LvlUp.vue'
-//import styled from 'vue-styled-components';
 
 export default {
   name: 'app',
